@@ -21,6 +21,9 @@ jobs:
       - name: Build with Ant
         run: ant -f build.xml
 
+      - name: List files in build directory
+        run: ls -R build
+
       - name: Archive Build Artifacts
         if: success()
         uses: actions/upload-artifact@v3
