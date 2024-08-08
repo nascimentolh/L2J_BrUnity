@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="ClassMasters">
+		<npc id="31756" x="-116948" y="46841" z="360" heading="3355" respawnDelay="60" />
+		<npc id="31756" x="-84336" y="242156" z="-3725" heading="24500" respawnDelay="60" />
+		<npc id="31756" x="-84119" y="243254" z="-3725" heading="8000" respawnDelay="60" />
+		<npc id="31756" x="-82032" y="150160" z="-3122" heading="16500" respawnDelay="60" />
+		<npc id="31756" x="-44979" y="-113508" z="-194" heading="32000" respawnDelay="60" />
+		<npc id="31756" x="-14048" y="123184" z="-3115" heading="32000" respawnDelay="60" />
+		<npc id="31756" x="10968" y="17540" z="-4567" heading="55000" respawnDelay="60" />
+		<npc id="31756" x="11340" y="15972" z="-4577" heading="14000" respawnDelay="60" />
+		<npc id="31756" x="15584" y="142784" z="-2699" heading="16500" respawnDelay="60" />
+		<npc id="31756" x="17956" y="170536" z="-3499" heading="48000" respawnDelay="60" />
+		<npc id="31756" x="44176" y="-48732" z="-800" heading="33000" respawnDelay="60" />
+		<npc id="31756" x="44319" y="-47640" z="-792" heading="50000" respawnDelay="60" />
+		<npc id="31756" x="45472" y="49312" z="-3067" heading="53000" respawnDelay="60" />
+		<npc id="31756" x="47648" y="51296" z="-2989" heading="38500" respawnDelay="60" />
+		<npc id="31756" x="81136" y="54576" z="-1517" heading="32000" respawnDelay="60" />
+		<npc id="31756" x="83076" y="147912" z="-3467" heading="32000" respawnDelay="60" />
+		<npc id="31756" x="87596" y="-140674" z="-1536" heading="16500" respawnDelay="60" />
+		<npc id="31756" x="87824" y="-142256" z="-1336" heading="7342" respawnDelay="60" />
+		<npc id="31756" x="110592" y="220400" z="-3667" heading="0" respawnDelay="60" />
+		<npc id="31756" x="114880" y="-178144" z="-827" heading="0" respawnDelay="60" />
+		<npc id="31756" x="116224" y="-181728" z="-1373" heading="0" respawnDelay="60" />
+		<npc id="31756" x="117200" y="75824" z="-2725" heading="25000" respawnDelay="60" />
+		<npc id="31756" x="147262" y="-56450" z="-2776" heading="33000" respawnDelay="60" />
+		<npc id="31756" x="147728" y="27408" z="-2198" heading="16500" respawnDelay="60" />
+		<npc id="31756" x="147888" y="-58048" z="-2979" heading="49000" respawnDelay="60" />
+		<npc id="31756" x="148560" y="-57952" z="-2974" heading="53000" respawnDelay="60" />
+		<npc id="31757" x="-116902" y="46841" z="360" heading="49151" respawnDelay="60" />
+		<npc id="31757" x="-84294" y="242204" z="-3725" heading="24500" respawnDelay="60" />
+		<npc id="31757" x="-84047" y="243193" z="-3725" heading="8000" respawnDelay="60" />
+		<npc id="31757" x="-81967" y="150160" z="-3122" heading="16500" respawnDelay="60" />
+		<npc id="31757" x="-44983" y="-113554" z="-194" heading="32000" respawnDelay="60" />
+		<npc id="31757" x="-14050" y="123229" z="-3115" heading="32000" respawnDelay="60" />
+		<npc id="31757" x="10918" y="17511" z="-4567" heading="55000" respawnDelay="60" />
+		<npc id="31757" x="11353" y="16022" z="-4577" heading="14000" respawnDelay="60" />
+		<npc id="31757" x="15631" y="142778" z="-2699" heading="16500" respawnDelay="60" />
+		<npc id="31757" x="17913" y="170536" z="-3499" heading="48000" respawnDelay="60" />
+		<npc id="31757" x="44176" y="-48688" z="-800" heading="33000" respawnDelay="60" />
+		<npc id="31757" x="44294" y="-47642" z="-792" heading="50000" respawnDelay="60" />
+		<npc id="31757" x="45414" y="49296" z="-3067" heading="53000" respawnDelay="60" />
+		<npc id="31757" x="47680" y="51255" z="-2989" heading="38500" respawnDelay="60" />
+		<npc id="31757" x="81126" y="54519" z="-1517" heading="32000" respawnDelay="60" />
+		<npc id="31757" x="83082" y="147845" z="-3467" heading="32000" respawnDelay="60" />
+		<npc id="31757" x="87644" y="-140674" z="-1536" heading="16500" respawnDelay="60" />
+		<npc id="31757" x="87856" y="-142272" z="-1336" heading="44000" respawnDelay="60" />
+		<npc id="31757" x="110592" y="220443" z="-3667" heading="0" respawnDelay="60" />
+		<npc id="31757" x="114880" y="-178196" z="-827" heading="0" respawnDelay="60" />
+		<npc id="31757" x="116218" y="-181793" z="-1379" heading="0" respawnDelay="60" />
+		<npc id="31757" x="117160" y="75784" z="-2725" heading="25000" respawnDelay="60" />
+		<npc id="31757" x="147285" y="-56461" z="-2776" heading="11500" respawnDelay="60" />
+		<npc id="31757" x="147761" y="27408" z="-2198" heading="16500" respawnDelay="60" />
+		<npc id="31757" x="147924" y="-58052" z="-2979" heading="49000" respawnDelay="60" />
+		<npc id="31757" x="148514" y="-57972" z="-2974" heading="53000" respawnDelay="60" />
+	</spawn>
+</list>

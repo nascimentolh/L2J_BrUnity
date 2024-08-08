@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn zone="innadril13_2324_tas01">
+		<territory minZ="-3753" maxZ="-2953">
+			<node x="104812" y="201853" />
+			<node x="106386" y="201898" />
+			<node x="106134" y="204477" />
+			<node x="103123" y="203007" />
+		</territory>
+		<npc id="20784" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman -->
+		<npc id="21639" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman -->
+		<npc id="20785" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman Shaman -->
+		<npc id="21640" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman Shaman -->
+		<npc id="21642" count="1" respawnDelay="60" respawnRandom="30" /> <!-- Tasaba Lizardman Sniper -->
+		<npc id="21643" count="1" respawnDelay="60" respawnRandom="30" /> <!-- Tasaba Lizardman Sniper -->
+	</spawn>
+	<spawn zone="innadril13_2324_tas02">
+		<territory minZ="-3784" maxZ="-3584">
+			<node x="100663" y="199952" />
+			<node x="102840" y="199311" />
+			<node x="102618" y="200631" />
+			<node x="100890" y="201048" />
+		</territory>
+		<npc id="20784" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman -->
+		<npc id="21639" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman -->
+		<npc id="20785" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman Shaman -->
+		<npc id="21640" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman Shaman -->
+		<npc id="21642" count="1" respawnDelay="60" respawnRandom="30" /> <!-- Tasaba Lizardman Sniper -->
+		<npc id="21643" count="1" respawnDelay="60" respawnRandom="30" /> <!-- Tasaba Lizardman Sniper -->
+	</spawn>
+	<spawn zone="innadril13_2324_tas03">
+		<territory minZ="-3092" maxZ="-2492">
+			<node x="102952" y="209827" />
+			<node x="104702" y="209799" />
+			<node x="105958" y="211507" />
+			<node x="105550" y="213106" />
+		</territory>
+		<npc id="20784" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman -->
+		<npc id="21639" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman -->
+		<npc id="20785" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman Shaman -->
+		<npc id="21640" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman Shaman -->
+		<npc id="21642" count="1" respawnDelay="60" respawnRandom="30" /> <!-- Tasaba Lizardman Sniper -->
+		<npc id="21643" count="1" respawnDelay="60" respawnRandom="30" /> <!-- Tasaba Lizardman Sniper -->
+	</spawn>
+	<spawn zone="innadril13_2324_croc01">
+		<territory minZ="-3814" maxZ="-3014">
+			<node x="109022" y="198572" />
+			<node x="111677" y="199916" />
+			<node x="109883" y="201624" />
+			<node x="106772" y="201334" />
+		</territory>
+		<npc id="20135" count="3" respawnDelay="40" respawnRandom="20" /> <!-- Alligator -->
+		<npc id="20792" count="3" respawnDelay="40" respawnRandom="20" /> <!-- Farhite -->
+		<npc id="20789" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Crokian -->
+		<npc id="20791" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Crokian Warrior -->
+	</spawn>
+	<spawn zone="innadril13_2324_croc02">
+		<territory minZ="-3760" maxZ="-3460">
+			<node x="108889" y="197996" />
+			<node x="112323" y="199201" />
+			<node x="111731" y="199822" />
+			<node x="108634" y="198284" />
+		</territory>
+		<npc id="20135" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Alligator -->
+		<npc id="20792" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Farhite -->
+		<npc id="20789" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Crokian -->
+		<npc id="20790" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Dailaon -->
+	</spawn>
+	<spawn zone="innadril13_2324_croc03">
+		<territory minZ="-3814" maxZ="-3014">
+			<node x="112870" y="198916" />
+			<node x="113997" y="199265" />
+			<node x="112526" y="201064" />
+			<node x="110681" y="200917" />
+		</territory>
+		<npc id="20135" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Alligator -->
+		<npc id="20792" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Farhite -->
+		<npc id="20789" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Crokian -->
+	</spawn>
+	<spawn zone="innadril13_2324_croc04">
+		<territory minZ="-3804" maxZ="-3604">
+			<node x="114020" y="199395" />
+			<node x="115703" y="199157" />
+			<node x="115836" y="199572" />
+			<node x="113577" y="199902" />
+		</territory>
+		<npc id="20135" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Alligator -->
+		<npc id="20792" count="1" respawnDelay="40" respawnRandom="20" /> <!-- Farhite -->
+		<npc id="20789" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Crokian -->
+		<npc id="20790" count="1" respawnDelay="40" respawnRandom="20" /> <!-- Dailaon -->
+	</spawn>
+	<spawn zone="innadril13_2324_croc05">
+		<territory minZ="-3819" maxZ="-3019">
+			<node x="113733" y="200706" />
+			<node x="116145" y="200194" />
+			<node x="115379" y="202202" />
+			<node x="112944" y="202817" />
+		</territory>
+		<npc id="20789" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Crokian -->
+		<npc id="20790" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Dailaon -->
+		<npc id="20791" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Crokian Warrior -->
+		<npc id="20793" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Nos -->
+		<npc id="20793" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Nos -->
+	</spawn>
+	<spawn zone="innadril13_2324_croc06">
+		<territory minZ="-3764" maxZ="-3564">
+			<node x="117138" y="198615" />
+			<node x="118016" y="198989" />
+			<node x="118183" y="199896" />
+			<node x="116519" y="199179" />
+		</territory>
+		<npc id="20792" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Farhite -->
+		<npc id="20789" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Crokian -->
+		<npc id="20790" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Dailaon -->
+		<npc id="20791" count="1" respawnDelay="40" respawnRandom="20" /> <!-- Crokian Warrior -->
+		<npc id="20793" count="1" respawnDelay="40" respawnRandom="20" /> <!-- Nos -->
+		<npc id="20793" count="1" respawnDelay="40" respawnRandom="20" /> <!-- Nos -->
+	</spawn>
+	<spawn zone="innadril13_2324_croc07">
+		<territory minZ="-2896" maxZ="-2496">
+			<node x="123819" y="200826" />
+			<node x="125842" y="200991" />
+			<node x="126187" y="201710" />
+			<node x="124150" y="201856" />
+		</territory>
+		<npc id="20792" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Farhite -->
+		<npc id="20789" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Crokian -->
+		<npc id="20790" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Dailaon -->
+		<npc id="20791" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Crokian Warrior -->
+		<npc id="20793" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Nos -->
+		<npc id="20793" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Nos -->
+	</spawn>
+	<spawn zone="innadril13_2324_lien01">
+		<territory minZ="-3816" maxZ="-3016">
+			<node x="117679" y="211677" />
+			<node x="121408" y="208460" />
+			<node x="123515" y="208312" />
+			<node x="122186" y="210758" />
+			<node x="118246" y="212386" />
+		</territory>
+		<npc id="20786" count="4" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik -->
+		<npc id="21644" count="4" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik -->
+		<npc id="20787" count="4" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik Lad -->
+		<npc id="21645" count="4" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik Lad -->
+	</spawn>
+	<spawn zone="innadril13_2324_lien02">
+		<territory minZ="-3716" maxZ="-3316">
+			<node x="120905" y="213536" />
+			<node x="125560" y="213540" />
+			<node x="124086" y="214957" />
+			<node x="120317" y="215065" />
+		</territory>
+		<npc id="20786" count="4" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik -->
+		<npc id="21644" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik -->
+		<npc id="20787" count="4" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik Lad -->
+		<npc id="21645" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik Lad -->
+	</spawn>
+	<spawn zone="innadril13_2324_lien03">
+		<territory minZ="-3528" maxZ="-2928">
+			<node x="123997" y="218677" />
+			<node x="126409" y="218588" />
+			<node x="126114" y="220819" />
+			<node x="123804" y="219959" />
+		</territory>
+		<npc id="20786" count="4" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik -->
+		<npc id="21644" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik -->
+		<npc id="20787" count="4" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik Lad -->
+		<npc id="21645" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik Lad -->
+	</spawn>
+	<spawn zone="innadril13_2324_lien04">
+		<territory minZ="-2888" maxZ="-2388">
+			<node x="122913" y="221694" />
+			<node x="124357" y="221694" />
+			<node x="124464" y="223751" />
+			<node x="122750" y="223968" />
+		</territory>
+		<npc id="20786" count="4" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik -->
+		<npc id="21644" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik -->
+		<npc id="20787" count="4" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik Lad -->
+		<npc id="21645" count="2" respawnDelay="40" respawnRandom="20" /> <!-- Lienrik Lad -->
+	</spawn>
+	<spawn zone="innadril01_qm2324_01">
+		<territory minZ="-4236" maxZ="-4036">
+			<node x="106252" y="197068" />
+			<node x="106452" y="197068" />
+			<node x="106452" y="197268" />
+			<node x="106252" y="197268" />
+		</territory>
+		<npc id="20314" count="3" respawnDelay="180" /> <!-- Great White Shark -->
+	</spawn>
+</list>

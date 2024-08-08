@@ -1,0 +1,151 @@
+/*
+ * This file is part of the L2J BrUnity project.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package handlers.admincommandhandlers;
+
+import java.util.StringTokenizer;
+
+import org.l2jbr_unity.gameserver.handler.IAdminCommandHandler;
+import org.l2jbr_unity.gameserver.instancemanager.InstanceManager;
+import org.l2jbr_unity.gameserver.model.WorldObject;
+import org.l2jbr_unity.gameserver.model.actor.Player;
+import org.l2jbr_unity.gameserver.model.instancezone.Instance;
+import org.l2jbr_unity.gameserver.model.instancezone.InstanceWorld;
+import org.l2jbr_unity.gameserver.util.BuilderUtil;
+import org.l2jbr_unity.gameserver.util.Util;
+
+/**
+ * @author evill33t, GodKratos
+ */
+public class AdminInstance implements IAdminCommandHandler
+{
+	private static final String[] ADMIN_COMMANDS =
+	{
+		"admin_setinstance",
+		"admin_ghoston",
+		"admin_ghostoff",
+		"admin_createinstance",
+		"admin_destroyinstance",
+		"admin_listinstances"
+	};
+	
+	@Override
+	public boolean useAdminCommand(String command, Player activeChar)
+	{
+		final StringTokenizer st = new StringTokenizer(command);
+		st.nextToken();
+		
+		// create new instance
+		if (command.startsWith("admin_createinstance"))
+		{
+			final String[] parts = command.split(" ");
+			if ((parts.length != 3) || !Util.isDigit(parts[2]))
+			{
+				BuilderUtil.sendSysMessage(activeChar, "Example: //createinstance <id> <templateId> - ids => 300000 are reserved for dynamic instances");
+			}
+			else
+			{
+				try
+				{
+					final int id = Integer.parseInt(parts[1]);
+					if ((id < 300000) && InstanceManager.getInstance().createInstanceFromTemplate(id, Integer.parseInt(parts[2])))
+					{
+						BuilderUtil.sendSysMessage(activeChar, "Instance created.");
+					}
+					else
+					{
+						BuilderUtil.sendSysMessage(activeChar, "Failed to create instance.");
+					}
+					return true;
+				}
+				catch (Exception e)
+				{
+					BuilderUtil.sendSysMessage(activeChar, "Failed loading: " + parts[1] + " " + parts[2]);
+					return false;
+				}
+			}
+		}
+		else if (command.startsWith("admin_listinstances"))
+		{
+			int counter = 0;
+			for (Instance instance : InstanceManager.getInstance().getInstances().values())
+			{
+				final InstanceWorld world = InstanceManager.getInstance().getWorld(instance.getId());
+				if (world != null)
+				{
+					counter++;
+					BuilderUtil.sendSysMessage(activeChar, "Id: " + instance.getId() + " Name: " + InstanceManager.getInstance().getInstanceIdName(world.getTemplateId()));
+				}
+			}
+			if (counter == 0)
+			{
+				BuilderUtil.sendSysMessage(activeChar, "No active instances.");
+			}
+		}
+		else if (command.startsWith("admin_setinstance"))
+		{
+			try
+			{
+				final int val = Integer.parseInt(st.nextToken());
+				if (InstanceManager.getInstance().getInstance(val) == null)
+				{
+					BuilderUtil.sendSysMessage(activeChar, "Instance " + val + " does not exist.");
+					return false;
+				}
+				
+				final WorldObject target = activeChar.getTarget();
+				if ((target == null) || target.isSummon()) // Don't separate summons from masters
+				{
+					BuilderUtil.sendSysMessage(activeChar, "Incorrect target.");
+					return false;
+				}
+				target.setInstanceId(val);
+				if (target.isPlayer())
+				{
+					final Player player = (Player) target;
+					player.sendMessage("Admin set your instance to:" + val);
+					player.teleToLocation(player.getLocation());
+				}
+				BuilderUtil.sendSysMessage(activeChar, "Moved " + target.getName() + " to instance " + target.getInstanceId() + ".");
+				return true;
+			}
+			catch (Exception e)
+			{
+				BuilderUtil.sendSysMessage(activeChar, "Use //setinstance id");
+			}
+		}
+		else if (command.startsWith("admin_destroyinstance"))
+		{
+			try
+			{
+				final int val = Integer.parseInt(st.nextToken());
+				InstanceManager.getInstance().destroyInstance(val);
+				BuilderUtil.sendSysMessage(activeChar, "Instance destroyed");
+			}
+			catch (Exception e)
+			{
+				BuilderUtil.sendSysMessage(activeChar, "Use //destroyinstance id");
+			}
+		}
+		return true;
+	}
+	
+	@Override
+	public String[] getAdminCommandList()
+	{
+		return ADMIN_COMMANDS;
+	}
+}

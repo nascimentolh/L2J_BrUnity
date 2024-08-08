@@ -1,0 +1,79 @@
+/*
+ * This file is part of the L2J BrUnity project.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package ai.areas.Hellbound.AI.NPC.Budenka;
+
+import org.l2jbr_unity.gameserver.model.actor.Npc;
+import org.l2jbr_unity.gameserver.model.actor.Player;
+
+import ai.AbstractNpcAI;
+
+/**
+ * Budenka AI.
+ * @author St3eT
+ */
+public class Budenka extends AbstractNpcAI
+{
+	// NPCs
+	private static final int BUDENKA = 32294;
+	// Items
+	private static final int STANDART_CERT = 9851;
+	private static final int PREMIUM_CERT = 9852;
+	
+	public Budenka()
+	{
+		addStartNpc(BUDENKA);
+		addFirstTalkId(BUDENKA);
+		addTalkId(BUDENKA);
+	}
+	
+	@Override
+	public String onEvent(String event, Npc npc, Player player)
+	{
+		String htmltext = null;
+		switch (event)
+		{
+			case "Budenka-02.html":
+			case "Budenka-03.html":
+			case "Budenka-04.html":
+			case "Budenka-05.html":
+			{
+				htmltext = event;
+				break;
+			}
+		}
+		return htmltext;
+	}
+	
+	@Override
+	public String onFirstTalk(Npc npc, Player player)
+	{
+		String htmltext = null;
+		if (hasQuestItems(player, STANDART_CERT, PREMIUM_CERT))
+		{
+			htmltext = "Budenka-07.html";
+		}
+		else if (hasQuestItems(player, STANDART_CERT))
+		{
+			htmltext = "Budenka-06.html";
+		}
+		else
+		{
+			htmltext = "Budenka-01.html";
+		}
+		return htmltext;
+	}
+}

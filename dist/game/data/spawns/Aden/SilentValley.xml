@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn zone="aden23_2519_01">
+		<territory minZ="-6072" maxZ="-5572">
+			<node x="172467" y="53837" />
+			<node x="176223" y="53110" />
+			<node x="177496" y="57409" />
+			<node x="173992" y="59487" />
+			<node x="171647" y="55312" />
+		</territory>
+		<npc id="20965" count="18" respawnDelay="70" respawnRandom="15" /> <!-- Chimera Piece -->
+		<npc id="20970" count="16" respawnDelay="70" respawnRandom="15" /> <!-- Soldier of Ancient Times -->
+		<npc id="20966" count="16" respawnDelay="70" respawnRandom="15" /> <!-- Changed Creation -->
+	</spawn>
+	<spawn zone="aden23_2519_02">
+		<territory minZ="-6072" maxZ="-5572">
+			<node x="175583" y="52825" />
+			<node x="179200" y="51623" />
+			<node x="182800" y="55943" />
+			<node x="177383" y="57572" />
+		</territory>
+		<npc id="20965" count="6" respawnDelay="70" respawnRandom="15" /> <!-- Chimera Piece -->
+		<npc id="20970" count="6" respawnDelay="70" respawnRandom="15" /> <!-- Soldier of Ancient Times -->
+		<npc id="20966" count="6" respawnDelay="70" respawnRandom="15" /> <!-- Changed Creation -->
+		<npc id="20967" count="12" respawnDelay="70" respawnRandom="15" /> <!-- Past Creature -->
+		<npc id="20971" count="6" respawnDelay="70" respawnRandom="15" /> <!-- Warrior of Ancient Times -->
+		<npc id="20972" count="12" respawnDelay="70" respawnRandom="15" /> <!-- Shaman of Ancient Times -->
+	</spawn>
+	<spawn zone="aden23_2519_03">
+		<territory minZ="-6112" maxZ="-5612">
+			<node x="179116" y="51628" />
+			<node x="182542" y="48378" />
+			<node x="186097" y="51828" />
+			<node x="182545" y="55789" />
+		</territory>
+		<npc id="20967" count="10" respawnDelay="70" respawnRandom="15" /> <!-- Past Creature -->
+		<npc id="20971" count="10" respawnDelay="70" respawnRandom="15" /> <!-- Warrior of Ancient Times -->
+		<npc id="20972" count="10" respawnDelay="70" respawnRandom="15" /> <!-- Shaman of Ancient Times -->
+		<npc id="20973" count="8" respawnDelay="70" respawnRandom="15" /> <!-- Forgotten Ancient People -->
+		<npc id="20968" count="6" respawnDelay="70" respawnRandom="15" /> <!-- Nonexistent Man -->
+		<npc id="20969" count="6" respawnDelay="70" respawnRandom="15" /> <!-- Giant's Shadow -->
+	</spawn>
+	<spawn zone="aden23_2519_04">
+		<territory minZ="-6116" maxZ="-5616">
+			<node x="188630" y="47013" />
+			<node x="187622" y="48613" />
+			<node x="189047" y="49729" />
+			<node x="187063" y="52435" />
+			<node x="182230" y="48533" />
+			<node x="187258" y="45770" />
+		</territory>
+		<npc id="20973" count="14" respawnDelay="70" respawnRandom="15" /> <!-- Forgotten Ancient People -->
+		<npc id="20968" count="16" respawnDelay="70" respawnRandom="15" /> <!-- Nonexistent Man -->
+		<npc id="20969" count="16" respawnDelay="70" respawnRandom="15" /> <!-- Giant's Shadow -->
+		<npc id="20971" count="6" respawnDelay="70" respawnRandom="15" /> <!-- Warrior of Ancient Times -->
+	</spawn>
+</list>

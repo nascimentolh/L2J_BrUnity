@@ -1,0 +1,52 @@
+/*
+ * This file is part of the L2J BrUnity project.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package org.l2jbr_unity.gameserver.instancemanager.tasks;
+
+import java.util.concurrent.ScheduledFuture;
+
+import org.l2jbr_unity.Config;
+import org.l2jbr_unity.commons.threads.ThreadPool;
+import org.l2jbr_unity.gameserver.instancemanager.FourSepulchersManager;
+
+/**
+ * Four Sepulchers change entry time task.
+ * @author xban1x
+ */
+public class FourSepulchersChangeEntryTimeTask implements Runnable
+{
+	@Override
+	public void run()
+	{
+		final FourSepulchersManager manager = FourSepulchersManager.getInstance();
+		manager.setEntryTime(true);
+		manager.setWarmUpTime(false);
+		manager.setAttackTime(false);
+		manager.setCoolDownTime(false);
+		
+		final long interval = manager.isFirstTimeRun() ? manager.getEntrytTimeEnd() - System.currentTimeMillis() : Config.FS_TIME_ENTRY * 60000;
+		// launching saying process...
+		ThreadPool.schedule(new FourSepulchersManagerSayTask(), 0);
+		manager.setChangeWarmUpTimeTask(ThreadPool.schedule(new FourSepulchersChangeWarmUpTimeTask(), interval));
+		final ScheduledFuture<?> changeEntryTimeTask = manager.getChangeEntryTimeTask();
+		
+		if (changeEntryTimeTask != null)
+		{
+			changeEntryTimeTask.cancel(true);
+			manager.setChangeEntryTimeTask(null);
+		}
+	}
+}

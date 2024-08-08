@@ -1,0 +1,71 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="spawnZones">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="zone" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="point" maxOccurs="unbounded" minOccurs="0">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:int" name="x" use="optional" />
+														<xs:attribute type="xs:int" name="y" use="optional" />
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute type="xs:byte" name="id" use="optional" />
+									<xs:attribute type="xs:short" name="minZ" use="optional" />
+									<xs:attribute type="xs:short" name="maxZ" use="optional" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="npc">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="spawn" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="loc" minOccurs="0">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:int" name="x" use="optional" />
+														<xs:attribute type="xs:int" name="y" use="optional" />
+														<xs:attribute type="xs:short" name="z" use="optional" />
+														<xs:attribute type="xs:int" name="heading" use="optional" />
+														<xs:attribute type="xs:string" name="mustKill" use="optional" />
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="zone" minOccurs="0">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:byte" name="id" use="optional" />
+														<xs:attribute type="xs:byte" name="count" use="optional" />
+														<xs:attribute type="xs:string" name="mustKill" use="optional" />
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute type="xs:short" name="npcId" use="optional" />
+									<xs:attribute type="xs:byte" name="flag" use="optional" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

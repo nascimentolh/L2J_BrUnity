@@ -1,0 +1,30 @@
+<html><title>Admin Item Search</title><body>
+	<br>
+	
+	<table width=285 border=0>
+		<tr>
+			<td width="30" align="center">Search:</td>
+			<td width="130" align="center"><edit var="word" width=140 height=15></td>
+			<td width="50" align="center"><button value="Search" action="bypass admin_search $word" width=50 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		</tr>
+	</table> 
+
+	<table width=285 border=0 bgcolor=444444>
+		<tr>
+			<td width="25" align="center">Id:</td> 
+			<td width="40" align="center"><edit var="itemId" width=50 height=15></td>
+			<td width="25" align="center">Qty:</td> 
+			<td width="40" align="center"><edit var="qty" width=50 height=15></td>
+			<td width="50" align="center"><button value="Self" action="bypass admin_create_item $itemId $qty" width=50 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			<td width="50" align="center"><button value="Target" action="bypass admin_give_item_target $itemId $qty" width=50 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		</tr>	
+	</table>
+
+	<table width=285 border=0>
+		%items%
+	</table>
+	
+	<table width=279 bgcolor=444444>
+		<tr><td width=270>Page: %pages%</td></tr>
+	</table>
+</body></html>

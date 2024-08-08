@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn zone="aden07_2519_01">
+		<territory minZ="-4384" maxZ="-4134">
+			<node x="173085" y="54423" />
+			<node x="175814" y="54454" />
+			<node x="175814" y="56345" />
+			<node x="173085" y="56314" />
+		</territory>
+		<npc id="22673" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Hirokai -->
+		<npc id="22674" count="5" respawnDelay="20" respawnRandom="5" /> <!-- Imagro -->
+		<npc id="22675" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Palit -->
+	</spawn>
+	<spawn zone="aden07_2519_02">
+		<territory minZ="-4400" maxZ="-4200">
+			<node x="173076" y="60534" />
+			<node x="176466" y="60534" />
+			<node x="176466" y="63146" />
+			<node x="173076" y="63146" />
+		</territory>
+		<npc id="22676" count="5" respawnDelay="20" respawnRandom="5" /> <!-- Hamlet -->
+		<npc id="22674" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Imagro -->
+		<npc id="22675" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Palit -->
+	</spawn>
+	<spawn zone="aden07_2519_03">
+		<territory minZ="-4464" maxZ="-4114">
+			<node x="177966" y="61529" />
+			<node x="179177" y="61529" />
+			<node x="179170" y="61851" />
+			<node x="177958" y="61851" />
+		</territory>
+		<npc id="22677" count="3" respawnDelay="20" respawnRandom="5" /> <!-- Klennot -->
+	</spawn>
+	<spawn zone="aden07_2519_04">
+		<territory minZ="-4316" maxZ="-3966">
+			<node x="179199" y="61529" />
+			<node x="180662" y="61529" />
+			<node x="180654" y="61851" />
+			<node x="179191" y="61851" />
+		</territory>
+		<npc id="22677" count="3" respawnDelay="20" respawnRandom="5" /> <!-- Klennot -->
+	</spawn>
+	<spawn zone="aden07_2519_05">
+		<territory minZ="-4000" maxZ="-3800">
+			<node x="181391" y="61094" />
+			<node x="182876" y="61094" />
+			<node x="182876" y="62824" />
+			<node x="181391" y="62824" />
+		</territory>
+		<npc id="22676" count="5" respawnDelay="20" respawnRandom="5" /> <!-- Hamlet -->
+		<npc id="22673" count="5" respawnDelay="20" respawnRandom="5" /> <!-- Hirokai -->
+		<npc id="22674" count="5" respawnDelay="20" respawnRandom="5" /> <!-- Imagro -->
+	</spawn>
+	<spawn zone="aden07_2519_06">
+		<territory minZ="-4000" maxZ="-3800">
+			<node x="178794" y="58523" />
+			<node x="182548" y="58523" />
+			<node x="182548" y="60512" />
+			<node x="178794" y="60512" />
+		</territory>
+		<npc id="22676" count="8" respawnDelay="20" respawnRandom="5" /> <!-- Hamlet -->
+		<npc id="22673" count="7" respawnDelay="20" respawnRandom="5" /> <!-- Hirokai -->
+		<npc id="22674" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Imagro -->
+	</spawn>
+	<spawn zone="aden07_2519_07">
+		<territory minZ="-4000" maxZ="-3800">
+			<node x="177302" y="54231" />
+			<node x="179834" y="53277" />
+			<node x="180492" y="55004" />
+			<node x="177959" y="55916" />
+		</territory>
+		<npc id="22673" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Hirokai -->
+		<npc id="22674" count="5" respawnDelay="20" respawnRandom="5" /> <!-- Imagro -->
+		<npc id="22675" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Palit -->
+	</spawn>
+	<spawn zone="aden07_2519_09">
+		<territory minZ="-4384" maxZ="-4184">
+			<node x="185731" y="47231" />
+			<node x="187304" y="48123" />
+			<node x="185979" y="50443" />
+			<node x="184333" y="49479" />
+		</territory>
+		<npc id="22673" count="5" respawnDelay="20" respawnRandom="5" /> <!-- Hirokai -->
+		<npc id="22674" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Imagro -->
+		<npc id="22675" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Palit -->
+	</spawn>
+	<spawn zone="aden07_2519_10">
+		<territory minZ="-4384" maxZ="-4184">
+			<node x="190561" y="49157" />
+			<node x="192558" y="49157" />
+			<node x="192558" y="51114" />
+			<node x="190561" y="51114" />
+		</territory>
+		<npc id="22676" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Hamlet -->
+		<npc id="22673" count="2" respawnDelay="20" respawnRandom="5" /> <!-- Hirokai -->
+		<npc id="22674" count="5" respawnDelay="20" respawnRandom="5" /> <!-- Imagro -->
+	</spawn>
+	<spawn zone="aden07_2519_11">
+		<territory minZ="-4384" maxZ="-4184">
+			<node x="189489" y="51585" />
+			<node x="191107" y="51585" />
+			<node x="191107" y="53322" />
+			<node x="189489" y="53322" />
+		</territory>
+		<npc id="22676" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Hamlet -->
+		<npc id="22673" count="5" respawnDelay="20" respawnRandom="5" /> <!-- Hirokai -->
+		<npc id="22674" count="2" respawnDelay="20" respawnRandom="5" /> <!-- Imagro -->
+	</spawn>
+	<spawn zone="aden07_2519_12">
+		<territory minZ="-4384" maxZ="-4184">
+			<node x="189437" y="53572" />
+			<node x="190635" y="53572" />
+			<node x="190635" y="54591" />
+			<node x="189437" y="54591" />
+		</territory>
+		<npc id="22676" count="4" respawnDelay="20" respawnRandom="5" /> <!-- Hamlet -->
+		<npc id="22673" count="3" respawnDelay="20" respawnRandom="5" /> <!-- Hirokai -->
+		<npc id="22674" count="3" respawnDelay="20" respawnRandom="5" /> <!-- Imagro -->
+	</spawn>
+	<spawn zone="aden07_2519_13">
+		<territory minZ="-4384" maxZ="-4184">
+			<node x="191420" y="51325" />
+			<node x="192758" y="51325" />
+			<node x="192758" y="53122" />
+			<node x="191420" y="53102" />
+		</territory>
+		<npc id="22676" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Hamlet -->
+		<npc id="22673" count="5" respawnDelay="20" respawnRandom="5" /> <!-- Hirokai -->
+	</spawn>
+	<spawn zone="aden07_2519_14">
+		<territory minZ="-4384" maxZ="-4184">
+			<node x="192982" y="51448" />
+			<node x="194490" y="51448" />
+			<node x="194480" y="53401" />
+			<node x="192982" y="53391" />
+		</territory>
+		<npc id="22676" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Hamlet -->
+		<npc id="22673" count="10" respawnDelay="20" respawnRandom="5" /> <!-- Hirokai -->
+	</spawn>
+	<spawn zone="aden07_2519_16">
+		<territory minZ="-4678" maxZ="-4378">
+			<node x="191851" y="54921" />
+			<node x="192155" y="54921" />
+			<node x="192158" y="56271" />
+			<node x="191855" y="56271" />
+		</territory>
+		<npc id="22677" count="3" respawnDelay="20" respawnRandom="5" /> <!-- Klennot -->
+	</spawn>
+	<spawn zone="aden07_2519_17">
+		<territory minZ="-4812" maxZ="-4512">
+			<node x="191856" y="56313" />
+			<node x="192160" y="56313" />
+			<node x="192152" y="57418" />
+			<node x="191848" y="57418" />
+		</territory>
+		<npc id="22677" count="3" respawnDelay="20" respawnRandom="5" /> <!-- Klennot -->
+	</spawn>
+	<spawn zone="aden07_2519_18">
+		<territory minZ="-4816" maxZ="-4616">
+			<node x="191728" y="57997" />
+			<node x="192291" y="57997" />
+			<node x="192291" y="58480" />
+			<node x="191728" y="58480" />
+		</territory>
+		<npc id="22668" count="2" respawnDelay="20" respawnRandom="5" /> <!-- Gamlin - Scout -->
+	</spawn>
+	<spawn zone="aden07_2519_19">
+		<territory minZ="-4992" maxZ="-4792">
+			<node x="189974" y="60356" />
+			<node x="193914" y="60362" />
+			<node x="193917" y="62932" />
+			<node x="189918" y="62937" />
+		</territory>
+		<npc id="22668" count="3" respawnDelay="82" respawnRandom="20" /> <!-- Gamlin - Scout -->
+		<npc id="22661" count="5" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22663" count="5" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Scout -->
+	</spawn>
+	<spawn zone="aden07_2519_20">
+		<territory minZ="-4992" maxZ="-4792">
+			<node x="190005" y="58908" />
+			<node x="191192" y="58899" />
+			<node x="191187" y="59954" />
+			<node x="190036" y="59930" />
+		</territory>
+		<npc id="22668" count="2" respawnDelay="20" respawnRandom="5" /> <!-- Gamlin - Scout -->
+		<npc id="22661" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22663" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Scout -->
+	</spawn>
+	<spawn zone="aden07_2519_21">
+		<territory minZ="-4992" maxZ="-4792">
+			<node x="192881" y="58886" />
+			<node x="194017" y="58883" />
+			<node x="194010" y="59925" />
+			<node x="192881" y="59928" />
+		</territory>
+		<npc id="22668" count="2" respawnDelay="20" respawnRandom="5" /> <!-- Gamlin - Scout -->
+		<npc id="22661" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22663" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Scout -->
+	</spawn>
+	<spawn zone="aden07_2519_22">
+		<territory minZ="-5016" maxZ="-4816">
+			<node x="185517" y="62272" />
+			<node x="189701" y="62241" />
+			<node x="189694" y="62853" />
+			<node x="185510" y="62915" />
+		</territory>
+		<npc id="22668" count="2" respawnDelay="20" respawnRandom="5" /> <!-- Gamlin - Scout -->
+		<npc id="22661" x="186725" y="62759" z="-4944" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22663" x="186182" y="62352" z="-4944" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Scout -->
+		<npc id="22661" x="186776" y="62345" z="-4944" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="187908" y="62756" z="-4944" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="188527" y="62744" z="-4944" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+	</spawn>
+	<spawn zone="aden07_2519_24">
+		<territory minZ="-6156" maxZ="-5956">
+			<node x="192121" y="60386" />
+			<node x="193883" y="60386" />
+			<node x="193883" y="62929" />
+			<node x="192121" y="62929" />
+		</territory>
+		<npc id="22669" count="1" respawnDelay="20" respawnRandom="5" /> <!-- Leogul - Scout -->
+		<npc id="22661" x="192660" y="60635" z="-6032" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="193413" y="60655" z="-6032" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="193399" y="61399" z="-6032" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="193381" y="61854" z="-6032" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="192236" y="61381" z="-6032" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="193392" y="62696" z="-6039" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="192242" y="61971" z="-6032" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="192622" y="62688" z="-6032" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22663" x="193052" y="62265" z="-6063" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Scout -->
+		<npc id="22663" x="193028" y="60952" z="-6063" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Scout -->
+	</spawn>
+	<spawn zone="aden07_2519_27">
+		<territory minZ="-7276" maxZ="-7076">
+			<node x="186850" y="59675" />
+			<node x="188172" y="59675" />
+			<node x="188172" y="63020" />
+			<node x="186850" y="63020" />
+		</territory>
+		<npc id="22669" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Leogul - Scout -->
+		<npc id="22664" x="187490" y="62694" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" x="187002" y="62694" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22664" x="187010" y="62192" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" x="187022" y="61696" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22664" x="187006" y="61237" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" x="187034" y="60756" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22664" x="188007" y="62753" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" x="188016" y="62112" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22664" x="188069" y="61632" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" x="187958" y="60466" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22664" x="187936" y="59968" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" x="187504" y="59961" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+	</spawn>
+	<spawn zone="aden07_2519_28">
+		<territory minZ="-7276" maxZ="-7076">
+			<node x="182322" y="59680" />
+			<node x="186515" y="59680" />
+			<node x="186515" y="60255" />
+			<node x="182322" y="60255" />
+		</territory>
+		<npc id="22669" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Leogul - Scout -->
+		<npc id="22662" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Shooter -->
+		<npc id="22664" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+	</spawn>
+	<spawn zone="aden07_2519_29">
+		<territory minZ="-7276" maxZ="-7076">
+			<node x="185115" y="58461" />
+			<node x="185978" y="58475" />
+			<node x="185978" y="59394" />
+			<node x="185115" y="59394" />
+		</territory>
+		<npc id="22662" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Shooter -->
+		<npc id="22664" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+	</spawn>
+	<spawn zone="aden07_2519_30">
+		<territory minZ="-7276" maxZ="-7076">
+			<node x="183961" y="58463" />
+			<node x="184824" y="58477" />
+			<node x="184824" y="59396" />
+			<node x="183961" y="59396" />
+		</territory>
+		<npc id="22662" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Shooter -->
+		<npc id="22664" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+	</spawn>
+	<spawn zone="aden07_2519_31">
+		<territory minZ="-7276" maxZ="-7076">
+			<node x="182822" y="58465" />
+			<node x="183684" y="58479" />
+			<node x="183684" y="59398" />
+			<node x="182822" y="59398" />
+		</territory>
+		<npc id="22662" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Shooter -->
+		<npc id="22664" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+	</spawn>
+	<spawn zone="aden07_2519_32">
+		<territory minZ="-7276" maxZ="-7076">
+			<node x="182161" y="60538" />
+			<node x="183024" y="60552" />
+			<node x="183024" y="61471" />
+			<node x="182161" y="61471" />
+		</territory>
+		<npc id="22662" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Shooter -->
+		<npc id="22664" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+	</spawn>
+	<spawn zone="aden07_2519_33">
+		<territory minZ="-7276" maxZ="-7076">
+			<node x="183474" y="60540" />
+			<node x="184336" y="60554" />
+			<node x="184336" y="61473" />
+			<node x="183474" y="61473" />
+		</territory>
+		<npc id="22662" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Shooter -->
+		<npc id="22664" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+	</spawn>
+	<spawn zone="aden07_2519_34">
+		<territory minZ="-7276" maxZ="-7076">
+			<node x="184640" y="60542" />
+			<node x="185502" y="60556" />
+			<node x="185502" y="61475" />
+			<node x="184640" y="61475" />
+		</territory>
+		<npc id="22662" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Shooter -->
+		<npc id="22664" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+	</spawn>
+	<spawn zone="aden07_2519_35">
+		<territory minZ="-7276" maxZ="-7076">
+			<node x="185763" y="60544" />
+			<node x="186625" y="60558" />
+			<node x="186625" y="61476" />
+			<node x="185763" y="61476" />
+		</territory>
+		<npc id="22662" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Shooter -->
+		<npc id="22664" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+	</spawn>
+	<spawn zone="aden07_2519_36">
+		<territory minZ="-7280" maxZ="-7080">
+			<node x="189936" y="59136" />
+			<node x="194032" y="59204" />
+			<node x="194024" y="62400" />
+			<node x="189948" y="62408" />
+		</territory>
+		<npc id="22669" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Leogul - Scout -->
+		<npc id="22665" x="193664" y="62041" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="193760" y="61344" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="193760" y="60768" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="193776" y="60240" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="193776" y="59488" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="193222" y="59531" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="192719" y="59499" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="193165" y="61963" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="192656" y="61975" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="191940" y="61982" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="191279" y="61971" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="190496" y="61949" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22662" x="191011" y="61005" z="-7199" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Shooter -->
+		<npc id="22662" x="192865" y="60996" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Shooter -->
+		<npc id="22664" x="192486" y="60549" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22664" x="193280" y="60592" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22664" x="193321" y="61433" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22664" x="192435" y="61458" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22664" x="191416" y="61431" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22664" x="191420" y="60590" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22664" x="190567" y="60580" z="-7212" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22664" x="190629" y="61409" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22665" x="190224" y="60178" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="190287" y="59524" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="191408" y="59501" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="190809" y="59535" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+	</spawn>
+	<spawn zone="aden07_2519_38">
+		<territory minZ="-7271" maxZ="-7071">
+			<node x="185849" y="54574" />
+			<node x="188339" y="54519" />
+			<node x="188847" y="55458" />
+			<node x="188857" y="57304" />
+			<node x="188259" y="58020" />
+			<node x="185686" y="58048" />
+			<node x="185124" y="57580" />
+			<node x="185112" y="55208" />
+		</territory>
+		<npc id="22669" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Leogul - Scout -->
+		<npc id="22665" x="188320" y="56128" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="188347" y="56688" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="188171" y="57322" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="187657" y="57593" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="187008" y="57712" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="186384" y="57728" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="185802" y="57614" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="185408" y="56976" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="185422" y="56332" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="185461" y="55679" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="185744" y="55168" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="186416" y="54944" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="187024" y="54880" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="187664" y="54848" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="188128" y="55216" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22665" x="188355" y="55617" z="-7200" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Elder -->
+		<npc id="22664" x="187319" y="56736" z="-7199" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22664" x="187336" y="55822" z="-7199" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22664" x="186451" y="56732" z="-7199" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22664" x="186450" y="55812" z="-7199" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Mage -->
+		<npc id="22662" x="186882" y="56272" z="-7199" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Shooter -->
+	</spawn>
+	<spawn zone="aden07_2519_39">
+		<territory minZ="-4602" maxZ="-4402">
+			<node x="185425" y="54721" />
+			<node x="188262" y="54655" />
+			<node x="188321" y="57871" />
+			<node x="185415" y="57861" />
+		</territory>
+		<npc id="22669" count="1" respawnDelay="82" respawnRandom="20" /> <!-- Leogul - Scout -->
+		<npc id="22661" x="185712" y="55137" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="186048" y="54930" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="186409" y="54916" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="186813" y="54888" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="187477" y="54859" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="187861" y="54869" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="188128" y="55056" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="188176" y="55456" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="188208" y="55840" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="188177" y="56261" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="188192" y="56608" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="188208" y="57024" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="188192" y="57408" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="187108" y="57703" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="187934" y="57662" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="185632" y="55536" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="185600" y="55936" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="185600" y="56592" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="185626" y="57008" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="185610" y="57412" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22661" x="186784" y="57674" z="-4528" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22663" x="186236" y="56907" z="-4544" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Scout -->
+		<npc id="22663" x="186256" y="55599" z="-4557" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Scout -->
+		<npc id="22663" x="187562" y="56978" z="-4557" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Scout -->
+		<npc id="22663" x="187540" y="55561" z="-4544" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Scout -->
+	</spawn>
+	<spawn zone="aden07_2519_41">
+		<territory minZ="-4026" maxZ="-3826">
+			<node x="183165" y="57680" />
+			<node x="184594" y="57663" />
+			<node x="184570" y="60104" />
+			<node x="183150" y="60163" />
+		</territory>
+		<npc id="22668" count="2" respawnDelay="20" respawnRandom="5" /> <!-- Gamlin - Scout -->
+		<npc id="22661" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Soldier -->
+		<npc id="22663" count="2" respawnDelay="82" respawnRandom="20" /> <!-- Lesser Giant Scout -->
+	</spawn>
+	<spawn zone="aden07_2519_p01">
+		<territory minZ="-4384" maxZ="-4134">
+			<node x="173085" y="54423" />
+			<node x="175814" y="54454" />
+			<node x="175814" y="56345" />
+			<node x="173085" y="56314" />
+		</territory>
+		<npc id="22670" count="1" respawnDelay="150" respawnRandom="50" /> <!-- Cursed Lord -->
+	</spawn>
+	<spawn zone="aden07_2519_p02">
+		<territory minZ="-4400" maxZ="-4200">
+			<node x="173076" y="60534" />
+			<node x="176466" y="60534" />
+			<node x="176466" y="63146" />
+			<node x="173076" y="63146" />
+		</territory>
+		<npc id="22670" count="1" respawnDelay="150" respawnRandom="50" /> <!-- Cursed Lord -->
+	</spawn>
+	<spawn zone="aden07_2519_p05">
+		<territory minZ="-4000" maxZ="-3800">
+			<node x="181391" y="61094" />
+			<node x="182876" y="61094" />
+			<node x="182876" y="62824" />
+			<node x="181391" y="62824" />
+		</territory>
+		<npc id="22670" count="1" respawnDelay="150" respawnRandom="50" /> <!-- Cursed Lord -->
+	</spawn>
+	<spawn zone="aden07_2519_p06">
+		<territory minZ="-4000" maxZ="-3800">
+			<node x="178794" y="58523" />
+			<node x="182548" y="58523" />
+			<node x="182548" y="60512" />
+			<node x="178794" y="60512" />
+		</territory>
+		<npc id="22670" count="1" respawnDelay="150" respawnRandom="50" /> <!-- Cursed Lord -->
+	</spawn>
+	<spawn zone="aden07_2519_p07">
+		<territory minZ="-4000" maxZ="-3800">
+			<node x="177302" y="54231" />
+			<node x="179834" y="53277" />
+			<node x="180492" y="55004" />
+			<node x="177959" y="55916" />
+		</territory>
+		<npc id="22670" count="1" respawnDelay="150" respawnRandom="50" /> <!-- Cursed Lord -->
+	</spawn>
+	<spawn zone="aden07_2519_p09">
+		<territory minZ="-4384" maxZ="-4184">
+			<node x="185731" y="47231" />
+			<node x="187304" y="48123" />
+			<node x="185979" y="50443" />
+			<node x="184333" y="49479" />
+		</territory>
+		<npc id="22670" count="1" respawnDelay="150" respawnRandom="50" /> <!-- Cursed Lord -->
+	</spawn>
+	<spawn zone="aden07_2519_p10">
+		<territory minZ="-4384" maxZ="-4184">
+			<node x="190561" y="49157" />
+			<node x="192558" y="49157" />
+			<node x="192558" y="51114" />
+			<node x="190561" y="51114" />
+		</territory>
+		<npc id="22670" count="1" respawnDelay="150" respawnRandom="50" /> <!-- Cursed Lord -->
+	</spawn>
+	<spawn zone="aden07_2519_p11">
+		<territory minZ="-4384" maxZ="-4184">
+			<node x="189489" y="51585" />
+			<node x="191107" y="51585" />
+			<node x="191107" y="53322" />
+			<node x="189489" y="53322" />
+		</territory>
+		<npc id="22670" count="1" respawnDelay="150" respawnRandom="50" /> <!-- Cursed Lord -->
+	</spawn>
+	<spawn zone="aden07_2519_p13">
+		<territory minZ="-4384" maxZ="-4184">
+			<node x="191420" y="51325" />
+			<node x="192758" y="51325" />
+			<node x="192758" y="53122" />
+			<node x="191420" y="53102" />
+		</territory>
+		<npc id="22670" count="1" respawnDelay="150" respawnRandom="50" /> <!-- Cursed Lord -->
+	</spawn>
+	<spawn zone="aden07_2519_p14">
+		<territory minZ="-4384" maxZ="-4184">
+			<node x="192982" y="51448" />
+			<node x="194490" y="51448" />
+			<node x="194480" y="53401" />
+			<node x="192982" y="53391" />
+		</territory>
+		<npc id="22670" count="1" respawnDelay="150" respawnRandom="50" /> <!-- Cursed Lord -->
+	</spawn>
+	<spawn zone="aden07_2519_p27">
+		<territory minZ="-7276" maxZ="-7076">
+			<node x="186850" y="59675" />
+			<node x="188172" y="59675" />
+			<node x="188172" y="63020" />
+			<node x="186850" y="63020" />
+		</territory>
+		<npc id="22666" count="1" respawnDelay="150" respawnRandom="50" /> <!-- Barif -->
+	</spawn>
+	<spawn zone="aden07_2519_p36">
+		<territory minZ="-7280" maxZ="-7080">
+			<node x="189936" y="59136" />
+			<node x="194032" y="59204" />
+			<node x="194024" y="62400" />
+			<node x="189948" y="62408" />
+		</territory>
+		<npc id="22666" count="3" respawnDelay="150" respawnRandom="50" /> <!-- Barif -->
+	</spawn>
+	<spawn zone="aden07_2519_p38">
+		<territory minZ="-7271" maxZ="-7071">
+			<node x="185849" y="54574" />
+			<node x="188339" y="54519" />
+			<node x="188847" y="55458" />
+			<node x="188857" y="57304" />
+			<node x="188259" y="58020" />
+			<node x="185686" y="58048" />
+			<node x="185124" y="57580" />
+			<node x="185112" y="55208" />
+		</territory>
+		<npc id="22666" count="3" respawnDelay="150" respawnRandom="50" /> <!-- Barif -->
+	</spawn>
+	<spawn zone="aden07_2519_p41">
+		<territory minZ="-4026" maxZ="-3826">
+			<node x="183165" y="57680" />
+			<node x="184594" y="57663" />
+			<node x="184570" y="60104" />
+			<node x="183150" y="60163" />
+		</territory>
+		<npc id="22666" count="1" respawnDelay="150" respawnRandom="50" /> <!-- Barif -->
+	</spawn>
+</list>
