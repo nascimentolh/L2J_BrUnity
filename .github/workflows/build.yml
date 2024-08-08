@@ -1,0 +1,36 @@
+name: Build L2J_BrUnity Project
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v3
+        with:
+          java-version: '21'
+
+      - name: Build with Ant
+        run: ant -f build.xml
+
+      - name: Archive Build Artifacts
+        if: success()
+        uses: actions/upload-artifact@v3
+        with:
+          name: L2J_BrUnity_Build
+          path: build/L2J_BrUnity_CT_2.6_HighFive.zip
+
+      - name: Create a Release on GitHub
+        if: success()
+        uses: softprops/action-gh-release@v1
+        with:
+          files: build/L2J_BrUnity_CT_2.6_HighFive.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
