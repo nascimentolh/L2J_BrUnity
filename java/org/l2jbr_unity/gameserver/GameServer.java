@@ -37,6 +37,7 @@ import org.l2jbr_unity.commons.network.ConnectionHandler;
 import org.l2jbr_unity.commons.threads.ThreadPool;
 import org.l2jbr_unity.commons.util.DeadLockDetector;
 import org.l2jbr_unity.commons.util.PropertiesParser;
+import org.l2jbr_unity.gameserver.api.RestServer;
 import org.l2jbr_unity.gameserver.cache.HtmCache;
 import org.l2jbr_unity.gameserver.data.AugmentationData;
 import org.l2jbr_unity.gameserver.data.BotReportTable;
@@ -208,7 +209,11 @@ public class GameServer
 		{
 			LogManager.getLogManager().readConfiguration(is);
 		}
-		
+
+		//TODO: Implementar Config
+		//Init Api
+		RestServer.getInstance().start();
+
 		// Initialize config
 		Config.load(ServerMode.GAME);
 		
