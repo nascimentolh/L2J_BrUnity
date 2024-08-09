@@ -21,6 +21,12 @@ jobs:
       - name: Build with Ant
         run: ant -f build.xml
 
+      - name: Check current directory
+        run: pwd
+
+      - name: List files in current directory
+        run: ls -R
+
       - name: List files in build directory
         run: ls -R build
 
