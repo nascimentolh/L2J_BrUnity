@@ -18,14 +18,11 @@ jobs:
           java-version: '21'
           distribution: 'corretto'
 
+      - name: Build with Ant
+        run: ant -f build.xml
+
       - name: Move to the parent directory
         run: cd ..
-
-      - name: Build with Ant
-        run: ant -f L2J_BrUnity/build.xml
-
-      - name: List files in build directory
-        run: ls -R build
 
       - name: Archive Build Artifacts
         if: success()
