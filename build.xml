@@ -18,7 +18,7 @@
 		along with this program. If not, see [http://www.gnu.org/licenses/].
 	</description>
 
-	<property name="build" location="../build" />
+	<property name="build" location="build" />
 	<property name="build.bin" location="${build}/bin" />
 	<property name="build.dist" location="${build}/dist" />
 	<property name="build.dist.libs" location="${build.dist}/libs" />
