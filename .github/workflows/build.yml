@@ -24,23 +24,20 @@ jobs:
       - name: Check current directory
         run: pwd
 
-      - name: List files in current directory
-        run: ls -R
-
       - name: List files in build directory
-        run: ls -R build
+        run: ls -R ../build
 
       - name: Archive Build Artifacts
         if: success()
         uses: actions/upload-artifact@v3
         with:
           name: L2J_BrUnity_Build
-          path: build/L2J_BrUnity_CT_2.6_HighFive.zip
+          path: ../build/L2J_BrUnity_CT_2.6_HighFive.zip
 
       - name: Create a Release on GitHub
         if: success()
         uses: softprops/action-gh-release@v1
         with:
-          files: build/L2J_BrUnity_CT_2.6_HighFive.zip
+          files: ../build/L2J_BrUnity_CT_2.6_HighFive.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
