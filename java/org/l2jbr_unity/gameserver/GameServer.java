@@ -210,10 +210,6 @@ public class GameServer
 			LogManager.getLogManager().readConfiguration(is);
 		}
 
-		//TODO: Implementar Config
-		//Init Api
-		RestServer.getInstance().start();
-
 		// Initialize config
 		Config.load(ServerMode.GAME);
 		
@@ -225,6 +221,11 @@ public class GameServer
 		
 		// Start game time task manager early
 		GameTimeTaskManager.getInstance();
+
+		//TODO: Implementar Config
+		//Init Api
+		printSection("RestApiServer");
+		RestServer.getInstance().start();
 		
 		printSection("IdManager");
 		IdManager.getInstance();

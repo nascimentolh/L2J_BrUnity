@@ -179,7 +179,11 @@ public abstract class BaseGameServerRegister
 	public void load()
 	{
 		Config.load(ServerMode.LOGIN);
-		DatabaseFactory.init();
+		try {
+			DatabaseFactory.init();
+		} catch (SQLException e) {
+			//TODO: IMPLEMENTAR LOG
+		}
 		GameServerTable.getInstance();
 		
 		_loaded = true;

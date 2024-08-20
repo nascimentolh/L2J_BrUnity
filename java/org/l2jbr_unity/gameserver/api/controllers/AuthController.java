@@ -3,11 +3,12 @@ package org.l2jbr_unity.gameserver.api.controllers;
 import io.javalin.http.Context;
 import io.javalin.http.HttpStatus;
 import org.l2jbr_unity.commons.database.DatabaseFactory;
+import org.l2jbr_unity.gameserver.api.enums.AccessLevel;
 import org.l2jbr_unity.gameserver.api.jwt.JwtUtil;
+import org.l2jbr_unity.gameserver.api.models.AccountInfo;
 import org.l2jbr_unity.gameserver.api.requests.LoginRequest;
 import org.l2jbr_unity.gameserver.api.responses.LoginResponse;
 import org.l2jbr_unity.gameserver.api.responses.Response;
-import org.l2jbr_unity.loginserver.model.data.AccountInfo;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -31,12 +32,16 @@ public class AuthController {
             ps.setString(2, username);
             try (ResultSet loginResultSet = ps.executeQuery()) {
                 if (loginResultSet.next()) {
+                    // Aqui construímos o objeto AccountInfo usando o Builder
+                    AccountInfo info = new AccountInfo.Builder()
+                            .withLogin(loginResultSet.getString("login"))
+                            .withPassHash(loginResultSet.getString("password"))
+                            .withAccessLevel(AccessLevel.values()[loginResultSet.getInt("accessLevel")])
+                            .withLastServer(loginResultSet.getInt("lastServer"))
+                            .build();
 
-                    final AccountInfo info = new AccountInfo(loginResultSet.getString("login"), loginResultSet.getString("password"), loginResultSet.getInt("accessLevel"), loginResultSet.getInt("lastServer"));
-                    if (info.checkPassHash(password))
-                    {
-
-                        String token = JwtUtil.generateToken(info.getLogin(), info.getAccessLevel());
+                    if (info.checkPassHash(password)) {
+                        String token = JwtUtil.generateToken(info.getLogin(), info.getAccessLevel().getLevel());
                         context.json(new LoginResponse(HttpStatus.OK.getCode(), "Successful login", token));
                         return;
                     }

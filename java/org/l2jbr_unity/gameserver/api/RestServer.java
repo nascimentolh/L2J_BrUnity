@@ -5,7 +5,6 @@ import io.javalin.plugin.bundled.CorsPluginConfig;
 import org.l2jbr_unity.gameserver.api.controllers.AuthController;
 
 public class RestServer {
-    private static RestServer instance;
     private final Javalin app;
 
     private RestServer() {
@@ -17,13 +16,6 @@ public class RestServer {
 
 //        registerMiddlewares();
         registerRoutes();
-    }
-
-    public static RestServer getInstance() {
-        if (instance == null) {
-            instance = new RestServer();
-        }
-        return instance;
     }
 
 //    private void registerMiddlewares() {
@@ -40,5 +32,13 @@ public class RestServer {
 
     public void stop() {
         app.stop();
+    }
+
+    public static RestServer getInstance() {
+        return RestServer.SingletonHolder.INSTANCE;
+    }
+
+    private static class SingletonHolder {
+        protected static final RestServer INSTANCE = new RestServer();
     }
 }

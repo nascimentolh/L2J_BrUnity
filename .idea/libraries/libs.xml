@@ -1,10 +1,39 @@
 <component name="libraryTable">
   <library name="libs">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/dist/libs/mariadb-java-client-2.7.5.jar!/" />
-      <root url="jar://$PROJECT_DIR$/dist/libs/mariadb-java-client-2.7.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/annotations-13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/caffeine-2.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/checker-qual-3.32.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/error_prone_annotations-2.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jackson-annotations-2.14.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jackson-core-2.14.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jackson-databind-2.14.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/dist/libs/java-jwt-4.4.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/dist/libs/javalin-6.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jcl-over-slf4j-2.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jetty-http-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jetty-io-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jetty-jakarta-servlet-api-5.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jetty-security-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jetty-server-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jetty-servlet-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jetty-util-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jetty-webapp-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jetty-xml-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jna-5.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/jna-platform-5.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/kotlin-stdlib-1.9.24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/kotlin-stdlib-jdk7-1.9.24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/kotlin-stdlib-jdk8-1.9.24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/mariadb-java-client-3.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/slf4j-api-2.0.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/waffle-jna-3.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/websocket-core-common-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/websocket-core-server-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/websocket-jetty-api-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/websocket-jetty-common-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/websocket-jetty-server-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/websocket-servlet-11.0.21.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
