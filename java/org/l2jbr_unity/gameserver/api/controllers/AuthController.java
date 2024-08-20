@@ -9,16 +9,16 @@ import org.l2jbr_unity.gameserver.api.models.AccountInfo;
 import org.l2jbr_unity.gameserver.api.requests.LoginRequest;
 import org.l2jbr_unity.gameserver.api.responses.LoginResponse;
 import org.l2jbr_unity.gameserver.api.responses.Response;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class AuthController {
-    protected static final Logger LOGGER = Logger.getLogger(AuthController.class.getName());
+    protected static final Logger LOGGER = LoggerFactory.getLogger(AuthController.class.getName());
 
     public static void login(Context context) {
         LoginRequest loginRequest = context.bodyAsClass(LoginRequest.class);
@@ -32,7 +32,6 @@ public class AuthController {
             ps.setString(2, username);
             try (ResultSet loginResultSet = ps.executeQuery()) {
                 if (loginResultSet.next()) {
-                    // Aqui construímos o objeto AccountInfo usando o Builder
                     AccountInfo info = new AccountInfo.Builder()
                             .withLogin(loginResultSet.getString("login"))
                             .withPassHash(loginResultSet.getString("password"))
@@ -48,11 +47,13 @@ public class AuthController {
                 }
             }
         } catch (SQLException e) {
-            LOGGER.log(Level.SEVERE, "Database error during login attempt for user: " + username, e);
-            context.json(new Response(500, "Unsuccessful login"));
+            LOGGER.error("Database error during login attempt for user: {}", username, e);
+            context.json(new Response(500, "Unsuccessful login"))
+                    .status(HttpStatus.INTERNAL_SERVER_ERROR);
             return;
         }
-        LOGGER.log(Level.WARNING, "Invalid login attempt for user: " + username);
-        context.json(new Response(401, "Invalid credentials"));
+        LOGGER.warn("Invalid login attempt for user: {}", username);
+        context.json(new Response(401, "Invalid credentials"))
+                .status(HttpStatus.UNAUTHORIZED);
     }
 }

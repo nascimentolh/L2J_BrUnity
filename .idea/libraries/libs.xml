@@ -34,6 +34,7 @@
       <root url="jar://$PROJECT_DIR$/dist/libs/websocket-jetty-common-11.0.21.jar!/" />
       <root url="jar://$PROJECT_DIR$/dist/libs/websocket-jetty-server-11.0.21.jar!/" />
       <root url="jar://$PROJECT_DIR$/dist/libs/websocket-servlet-11.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/libs/slf4j-simple-2.0.13.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
