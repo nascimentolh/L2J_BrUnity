@@ -20,7 +20,6 @@ public class AuthMiddleware {
 
             // Validação do token usando JwtUtil
             JwtUtil.validateToken(token);
-
             // Não precisa de ctx.next(), o fluxo continuará naturalmente se não houver erros
         } catch (JWTVerificationException e) {
             ctx.status(401).result("Unauthorized: Invalid or expired token");

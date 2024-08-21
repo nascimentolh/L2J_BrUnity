@@ -27,4 +27,12 @@ public class JwtUtil {
                 .build();
         verifier.verify(token);
     }
+
+    public static String getSubject(String token) {
+        return JWT.decode(token).getSubject();
+    }
+
+    public static int getAccessLevel(String token) {
+        return JWT.decode(token).getClaim("accessLevel").asInt();
+    }
 }
