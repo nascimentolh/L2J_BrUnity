@@ -7,6 +7,10 @@ public class CharacterResponse extends Response {
     private final long exp;
     private final boolean online;
     private final int clanId;
+    private final String clanName;
+    private final int clanLevel;
+    private final int reputationScore;
+    private final String allyName;
     private final boolean nobless;
 
     private CharacterResponse(Builder builder) {
@@ -17,6 +21,10 @@ public class CharacterResponse extends Response {
         this.exp = builder.exp;
         this.online = builder.online;
         this.clanId = builder.clanId;
+        this.clanName = builder.clanName;
+        this.clanLevel = builder.clanLevel;
+        this.reputationScore = builder.reputationScore;
+        this.allyName = builder.allyName;
         this.nobless = builder.nobless;
     }
 
@@ -29,6 +37,10 @@ public class CharacterResponse extends Response {
         private long exp;
         private boolean online;
         private int clanId;
+        private String clanName;
+        private int clanLevel;
+        private int reputationScore;
+        private String allyName;
         private boolean nobless;
 
         public Builder withCode(int code) {
@@ -71,6 +83,26 @@ public class CharacterResponse extends Response {
             return this;
         }
 
+        public Builder withClanName(String clanName) {
+            this.clanName = clanName;
+            return this;
+        }
+
+        public Builder withClanLevel(int clanLevel) {
+            this.clanLevel = clanLevel;
+            return this;
+        }
+
+        public Builder withReputationScore(int reputationScore) {
+            this.reputationScore = reputationScore;
+            return this;
+        }
+
+        public Builder withAllyName(String allyName) {
+            this.allyName = allyName;
+            return this;
+        }
+
         public Builder withNobless(boolean nobless) {
             this.nobless = nobless;
             return this;
@@ -105,6 +137,22 @@ public class CharacterResponse extends Response {
 
     public int getClanId() {
         return clanId;
+    }
+
+    public String getClanName() {
+        return clanName;
+    }
+
+    public int getClanLevel() {
+        return clanLevel;
+    }
+
+    public int getReputationScore() {
+        return reputationScore;
+    }
+
+    public String getAllyName() {
+        return allyName;
     }
 
     public boolean isNobless() {

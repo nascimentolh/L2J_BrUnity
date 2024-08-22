@@ -35,7 +35,7 @@ public class AuthController {
                     AccountInfo info = new AccountInfo.Builder()
                             .withLogin(loginResultSet.getString("login"))
                             .withPassHash(loginResultSet.getString("password"))
-                            .withAccessLevel(AccessLevel.values()[loginResultSet.getInt("accessLevel")])
+                            .withAccessLevel(AccessLevel.getByLevel(loginResultSet.getInt("accessLevel")))
                             .withLastServer(loginResultSet.getInt("lastServer"))
                             .build();
 

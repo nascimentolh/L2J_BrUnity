@@ -28,7 +28,7 @@ public class RestServer {
     private void registerRoutes() {
         app.post("/login", AuthController::login);
         app.get("/characters", AccountController::listCharacters);
-
+        app.get("/me", AccountController::getAccountInfo);
     }
 
     public void start() {

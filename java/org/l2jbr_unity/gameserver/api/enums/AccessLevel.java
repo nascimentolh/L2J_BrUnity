@@ -89,4 +89,14 @@ public enum AccessLevel {
     public boolean gainExp() {
         return gainExp;
     }
+
+    public static AccessLevel getByLevel(int level) {
+        for (AccessLevel accessLevel : AccessLevel.values()) {
+            if (accessLevel.getLevel() == level) {
+                return accessLevel;
+            }
+        }
+        return AccessLevel.USER;
+    }
+
 }
